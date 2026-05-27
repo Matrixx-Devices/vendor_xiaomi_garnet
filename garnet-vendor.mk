@@ -868,7 +868,21 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/firmware/gen70900_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70900_sqe.fw \
     vendor/xiaomi/garnet/proprietary/vendor/firmware/gen71100_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_gmu.bin \
     vendor/xiaomi/garnet/proprietary/vendor/firmware/gen71100_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_sqe.fw \
-    vendor/xiaomi/garnet/proprietary/vendor/firmware/gmu_gen70900.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70900.bin 
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/gmu_gen70900.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70900.bin \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a620_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b00 \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a620_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b01 \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a620_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b02 \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a620_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.mbn \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a620_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.mdt \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a621_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a621_gmu.bin \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a740v3_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a740v3_sqe.fw \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a740v3_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a740v3_zap.b00 \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a740v3_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a740v3_zap.b01 \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a740v3_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a740v3_zap.b02 \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a740v3_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a740v3_zap.elf \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a740v3_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a740v3_zap.mbn \
+    vendor/xiaomi/garnet/proprietary/vendor/firmware/a740v3_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a740v3_zap.mdt
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
